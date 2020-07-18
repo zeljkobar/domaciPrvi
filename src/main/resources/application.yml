@@ -27,3 +27,9 @@ spring:
 server:
   port: 8080
 debug: false
+
+ldap:
+  domain: 192.168.27.217
+  port: 598
+  searchContext: "dc=it"
+  isSecure: true
